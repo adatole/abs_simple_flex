@@ -158,7 +158,6 @@ This blog isn't about NRQL tips or charting traps, so I'm going to give you the 
 
     FROM TestFlexSample SELECT average(availableBytes) TIMESERIES
 
-<IMG: show chart of this query, with chart type dropdown open, and Add to Dashboard circled>
 ![result of query "FROM TestFlexSample SELECT average(availableBytes) TIMESERIES" also showing available chart types and the "Add to Dashboard" button circled](NRQL_Chart.png)
 
 Now that I have a working (if somewhat boring) graph, I can use the "Add to Dashboard" button to add it into a display.
